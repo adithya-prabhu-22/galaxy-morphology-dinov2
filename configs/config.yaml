@@ -1,0 +1,38 @@
+# Dataset
+dataset:
+  data_dir: "data/gz2_data"
+  num_samples: 20000
+  num_classes: 5
+
+# Image
+image:
+  size: 224
+
+# Training
+training:
+  batch_size: 32
+  num_workers: 4
+
+# Experiment
+experiment:
+  seeds: [0, 1, 2, 3, 4]
+  fractions: [0.01, 0.05, 0.10, 0.25, 0.50, 1.00]
+
+# Models
+models:
+  dino_mlp: true
+  dino_linear: true
+  resnet_scratch: true
+  resnet_imagenet: true
+  dino_finetune: true
+
+# Epochs
+epochs:
+  cnn: 15
+  finetune: 8
+  probe: 30
+
+# Output
+output:
+  model_dir: "models"
+  results_dir: "results"

@@ -1,0 +1,14 @@
+torch
+torchvision
+timm
+galaxy-datasets
+scikit-learn
+pandas
+numpy
+scipy
+statsmodels
+matplotlib
+seaborn
+Pillow
+PyYAML
+jupyter

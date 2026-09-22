@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+env1/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset
+data/*
+!data/.gitkeep
+
+# Trained models / weights
+models/*
+!models/.gitkeep
+*.pth
+*.pt
+*.ckpt
+
+# Results generated during experiments
+results/figures/*
+results/metrics/*
+results/tables/*
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Environment / secrets
+.env
